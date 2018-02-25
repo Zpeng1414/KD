@@ -85,7 +85,7 @@ function lunbo1(Id,innerId1,innerId2,width,active,time1,Id3,beijing){
             this.className = active;
             lunbo.style.left = - this.index * width + 'px';
             num = this.index;
-            console.log(beijing+num);
+            Id3.className=beijing+num;
 
 
         };

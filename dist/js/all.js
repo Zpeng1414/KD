@@ -1,3 +1,25 @@
+function foodown(id1,id2,class1,class2,class3,class4,biaoqian1,biaoqian2){
+    var header = document.getElementById(id1);
+    var headerBtn = header.getElementsByTagName(biaoqian1);
+    var content = document.getElementById(id2);
+    var contentDiv = content.getElementsByTagName(biaoqian2);
+
+    for(var i=0;i<headerBtn.length;i++){
+
+        //添加索引操作(添加唯一标识，一组去对应另一组)
+        headerBtn[i].index = i;
+
+        headerBtn[i].onmousedown = function(){
+            for(var i=0;i<headerBtn.length;i++){
+                headerBtn[i].className =class1;
+                contentDiv[i].className = class2;
+            }
+            this.className = class3;
+            contentDiv[this.index].className = class4;
+        };
+    }
+}
+foodown('denglu_main_div1_div1', 'denglu_main_div1_div2', 'l', '', 'active21 l', 'show21','div','div');
 
 
 function foo(id1,id2,class1,class2,class3,class4,biaoqian1,biaoqian2){
@@ -33,6 +55,7 @@ hpMbody2.onmouseover = function() {
 
 foo('hp_mbody_1', 'hp_mbody_2', 'active11', '', 'active12', 'show1','div','div');
 foo('in_last_f_1_1', 'in_last_f_1_2', 'active10', '', 'active9', 'show5','li','section');
+
 
 
 
@@ -231,7 +254,7 @@ function lunbo1(Id,innerId1,innerId2,width,active,time1,Id3,beijing){
             this.className = active;
             lunbo.style.left = - this.index * width + 'px';
             num = this.index;
-            console.log(beijing+num);
+            Id3.className=beijing+num;
 
 
         };

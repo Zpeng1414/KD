@@ -1152,3 +1152,330 @@ body {
       width: 115px;
       height: 40px;
       margin: 0 20px; }
+
+@charset "UTF-8";
+body {
+  background: #F0F0F0; }
+
+.denglu_header {
+  height: 52px;
+  padding: 52px 0 34px 0; }
+  .denglu_header .denglu_header_div1 {
+    height: 56px;
+    padding-left: 100px;
+    width: 1090px; }
+    .denglu_header .denglu_header_div1 img {
+      display: inline-block;
+      width: 196px;
+      height: 56px;
+      padding: 0;
+      border: 0;
+      margin: 0; }
+    .denglu_header .denglu_header_div1 h2 {
+      width: 72px;
+      padding-left: 20px;
+      color: #666;
+      font-size: 18px;
+      font-weight: 100;
+      display: inline-block;
+      padding-top: 30px; }
+    .denglu_header .denglu_header_div1 .denglu_header_div2 {
+      width: 510px;
+      height: 40px;
+      line-height: 20px;
+      padding: 5px 10px 5px 10px;
+      border: 1px solid #f60;
+      margin-left: 200px;
+      background-color: #fdf7e9; }
+
+/*登录*/
+.denglu_main {
+  background: #f11a0c;
+  height: 480px; }
+  .denglu_main .denglu_main_w {
+    width: 998px;
+    margin: 0 auto;
+    position: relative; }
+    .denglu_main .denglu_main_w img {
+      margin: 0 auto;
+      width: 1000px;
+      height: 480px;
+      display: block;
+      position: relative; }
+    .denglu_main .denglu_main_w .denglu_main_div1 {
+      background: rgba(255, 255, 255, 0.9);
+      width: 340px;
+      height: 360px;
+      position: absolute;
+      top: 60px;
+      right: 0px; }
+      .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div1 {
+        width: 340px;
+        height: 24px;
+        padding: 18px 0;
+        border-bottom: 1px solid #e6e6e6;
+        color: #666666; }
+        .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div1 div {
+          margin: 0 40px;
+          font-size: 20px; }
+        .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div1 span {
+          line-height: 24px; }
+      .denglu_main .denglu_main_w .denglu_main_div1 .active21 {
+        color: #89b929; }
+      .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 {
+        width: 340px;
+        height: 220px; }
+        .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 div {
+          display: none; }
+        .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 .show21 {
+          display: block; }
+        .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 {
+          height: 220px;
+          width: 340px; }
+          .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 ul {
+            width: 280px;
+            heihgt: 180px;
+            margin: 0px 30px; }
+            .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 ul li:nth-child(1) {
+              width: 280px;
+              height: 38px;
+              margin-top: 34px;
+              position: relative; }
+              .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 ul li:nth-child(1) span {
+                position: absolute;
+                width: 40px;
+                height: 36px;
+                background: url("../images/allbgs.png") no-repeat -62px 4px; }
+              .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 ul li:nth-child(1) b {
+                position: absolute;
+                left: 38px;
+                font-size: 18px;
+                line-height: 36px;
+                color: #bdbdbd; }
+              .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 ul li:nth-child(1) input {
+                float: left;
+                width: 230px;
+                height: 36px;
+                line-height: 36px;
+                border: 1px solid #bdbdbd;
+                padding-left: 48px;
+                font-size: 14px; }
+            .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 ul li:nth-child(2) {
+              width: 280px;
+              height: 38px;
+              margin-top: 10px;
+              position: relative; }
+              .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 ul li:nth-child(2) span {
+                position: absolute;
+                width: 40px;
+                height: 36px;
+                background: url("../images/allbgs.png") no-repeat -62px -31px; }
+              .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 ul li:nth-child(2) b {
+                position: absolute;
+                left: 38px;
+                font-size: 18px;
+                line-height: 36px;
+                color: #bdbdbd; }
+              .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 ul li:nth-child(2) input {
+                float: left;
+                width: 230px;
+                height: 36px;
+                line-height: 36px;
+                border: 1px solid #bdbdbd;
+                padding-left: 48px;
+                font-size: 14px; }
+            .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 ul li:nth-child(3) {
+              font-size: 13px;
+              width: 280px;
+              height: 24px;
+              line-height: 24px;
+              margin-top: 5px; }
+              .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 ul li:nth-child(3) a {
+                float: right;
+                color: #f60; }
+            .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 ul li:nth-child(4) {
+              width: 280px;
+              height: 40px;
+              margin-top: 16px; }
+              .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div2 #denglu_main_div1_div2_div2 ul li:nth-child(4) input {
+                width: 280px;
+                height: 40px;
+                color: #fff;
+                font-size: 16px;
+                background: #f60;
+                border: 0;
+                border-radius: 3px; }
+      .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div3 {
+        width: 300px;
+        height: 60px;
+        padding: 0 20px;
+        background: #ebebf1;
+        position: absolute;
+        bottom: 0; }
+        .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div3 .denglu_main_div1_div3_a {
+          float: left;
+          width: 32px;
+          height: 32px;
+          margin-top: 14px;
+          margin-right: 8px;
+          background: url("../images/allbgs.png") no-repeat; }
+        .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div3 a:nth-child(1) {
+          background-position: -120px -74px; }
+        .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div3 a:nth-child(2) {
+          background-position: 0 -74px; }
+        .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div3 a:nth-child(3) {
+          background-position: -40px -74px; }
+        .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div3 a:nth-child(4) {
+          background-position: -80px -74px; }
+        .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div3 div {
+          float: right;
+          width: 77px;
+          height: 60px; }
+          .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div3 div a {
+            font-size: 14px;
+            color: #f60;
+            line-height: 60px; }
+            .denglu_main .denglu_main_w .denglu_main_div1 .denglu_main_div1_div3 div a i {
+              float: right;
+              width: 16px;
+              height: 16px;
+              margin: 22px 0 0 5px;
+              background: url("../images/index/tubiao.png") no-repeat -412px -940px; }
+
+.denglu_wide_footer {
+  height: 170px;
+  background: #F0F0F0;
+  margin-top: 20px;
+  padding-top: 10px; }
+  .denglu_wide_footer .wide_footer_titi3 {
+    height: 65px;
+    padding: 14px 0;
+    text-align: center; }
+    .denglu_wide_footer .wide_footer_titi3 p {
+      padding-top: 5px;
+      line-height: 16px; }
+      .denglu_wide_footer .wide_footer_titi3 p span {
+        padding: 0 5px; }
+      .denglu_wide_footer .wide_footer_titi3 p img {
+        width: 20px;
+        height: 20px; }
+  .denglu_wide_footer .wide_footer_titi4 {
+    text-align: center; }
+    .denglu_wide_footer .wide_footer_titi4 img {
+      width: 115px;
+      height: 40px;
+      margin: 0 20px; }
+
+.zhuce_main {
+  background: #f11a0c;
+  height: 480px; }
+  .zhuce_main .zhuce_main_w {
+    width: 998px;
+    margin: 0 auto;
+    position: relative; }
+    .zhuce_main .zhuce_main_w img {
+      margin: 0 auto;
+      width: 1000px;
+      height: 480px;
+      display: block;
+      position: relative; }
+    .zhuce_main .zhuce_main_w .zhuce_main_div1 {
+      width: 280px;
+      height: 370px;
+      background: #fff;
+      position: absolute;
+      top: 40px;
+      right: 0px;
+      padding: 15px 30px; }
+      .zhuce_main .zhuce_main_w .zhuce_main_div1 div {
+        width: 280px;
+        height: 40px;
+        line-heihgt: 40px; }
+        .zhuce_main .zhuce_main_w .zhuce_main_div1 div h2 {
+          line-height: 40px;
+          color: #f60;
+          font-size: 22px;
+          font-weight: bold;
+          float: left; }
+        .zhuce_main .zhuce_main_w .zhuce_main_div1 div span {
+          float: right;
+          line-height: 40px;
+          padding-right: 16px;
+          position: relative; }
+          .zhuce_main .zhuce_main_w .zhuce_main_div1 div span a {
+            color: #f60;
+            display: inline-block; }
+            .zhuce_main .zhuce_main_w .zhuce_main_div1 div span a i {
+              position: absolute;
+              width: 16px;
+              height: 16px;
+              background: url("../images/index/tubiao.png") no-repeat -412px -940px;
+              right: 0;
+              top: 12px; }
+      .zhuce_main .zhuce_main_w .zhuce_main_div1 ul {
+        width: 280px;
+        height: 190px; }
+        .zhuce_main .zhuce_main_w .zhuce_main_div1 ul li {
+          width: 278px;
+          height: 38px;
+          border: 1px solid #ccc;
+          margin-bottom: 10px;
+          position: relative; }
+          .zhuce_main .zhuce_main_w .zhuce_main_div1 ul li input {
+            border: 0;
+            padding-left: 40px;
+            width: 238px;
+            height: 38px;
+            color: #ccc;
+            font-size: 14px; }
+          .zhuce_main .zhuce_main_w .zhuce_main_div1 ul li span:nth-child(1) {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            top: 7px;
+            left: 6px;
+            background: url("../images/index/tubiao.png") no-repeat; }
+          .zhuce_main .zhuce_main_w .zhuce_main_div1 ul li span:nth-child(2) {
+            position: absolute;
+            top: 11px;
+            left: 34px; }
+        .zhuce_main .zhuce_main_w .zhuce_main_div1 ul li:nth-child(1) span {
+          background-position: -502px -911px; }
+        .zhuce_main .zhuce_main_w .zhuce_main_div1 ul li:nth-child(2) span {
+          left: 166px;
+          top: 0; }
+          .zhuce_main .zhuce_main_w .zhuce_main_div1 ul li:nth-child(2) span img {
+            width: 104px;
+            height: 32px;
+            margin: 3px; }
+        .zhuce_main .zhuce_main_w .zhuce_main_div1 ul li:nth-child(2) input {
+          height: 38px;
+          width: 156px;
+          padding-left: 10px; }
+        .zhuce_main .zhuce_main_w .zhuce_main_div1 ul li:nth-child(3) span {
+          background-position: -526px -911px; }
+        .zhuce_main .zhuce_main_w .zhuce_main_div1 ul li:nth-child(4) {
+          margin: 0; }
+          .zhuce_main .zhuce_main_w .zhuce_main_div1 ul li:nth-child(4) span {
+            background-position: -550px -911px; }
+      .zhuce_main .zhuce_main_w .zhuce_main_div1 p {
+        width: 280px;
+        height: 25px;
+        color: #f60;
+        line-height: 25px; }
+      .zhuce_main .zhuce_main_w .zhuce_main_div1 input:nth-child(4) {
+        width: 280px;
+        height: 40px;
+        background: #f60;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 3px;
+        border: 0;
+        font-size: 18px;
+        margin-bottom: 9px; }
+      .zhuce_main .zhuce_main_w .zhuce_main_div1 input:nth-child(5) {
+        height: 16px;
+        line-height: 16px;
+        float: left; }
+      .zhuce_main .zhuce_main_w .zhuce_main_div1 .zhuce_main_div1_span {
+        color: #6d9d03; }

@@ -13,5 +13,13 @@
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.2.0",
     "gulp-sass": "^3.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zpeng1414/KD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zpeng1414/KD/issues"
+  },
+  "homepage": "https://github.com/Zpeng1414/KD#readme"
 }
