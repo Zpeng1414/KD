@@ -8,7 +8,7 @@ gulp.task("copyhtml",function(){
 })
 
 gulp.task("copyjs",function(){
-	return gulp.src("src/js/*").pipe(concat("all.js")).pipe(gulp.dest("dist/js")).pipe(connect.reload());
+	return gulp.src("src/js/*").pipe(gulp.dest("dist/js")).pipe(connect.reload());
 })
 
 gulp.task("copycss",function(){
